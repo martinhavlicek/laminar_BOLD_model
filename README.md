@@ -1,5 +1,5 @@
 # laminar_BOLD_model
-Matlab code of laminar BOLD signal model as described in Havlicek, M. &amp; Uludag, K. (2019) A dynamical model of the laminar BOLD response, BioRxiv, doi: https://doi.org/10.1101/609099. Tested with Matlab R2015b.
+Matlab code of the laminar BOLD signal model as described in Havlicek, M. &amp; Uludag, K. (2019) A dynamical model of the laminar BOLD response, BioRxiv, doi: https://doi.org/10.1101/609099. Tested with Matlab R2015b.
 
 Author: Martin Havlicek, Maastricht Unversity (m.havlicek@maastrichtuniversity.nl)
 
