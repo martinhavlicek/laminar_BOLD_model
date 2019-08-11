@@ -4,11 +4,11 @@ Matlab code of the laminar BOLD response (LBR) model as described in Havlicek, M
 Author: Martin Havlicek, Maastricht Unversity (m.havlicek@maastrichtuniversity.nl)
 
 ### Main files:
-* LBR_model.m - main function containing laminar BOLD signal model (including two simple examples how to generate steady-state and dynamic              response).
+* LBR_model.m - main function containing the laminar BOLD signal model (including two simple examples how to generate steady-state and dynamic              response).
 * LBR_parameters.m - supporting function for the LBR model, containg structure with all parameteres of the model. Output of this function is the first input to the LBR_model.
 
 ### Additional files:
-* neuronal_NVC_model.m - model to simulated neuronal and blood flow responses, which can be used as a driving input for LBR_model in case of simulating dynamic responses.
+* neuronal_NVC_model.m - model to simulate neuronal and blood flow responses, which can be used as a driving input for LBR_model in case of simulating dynamic responses.
 * neuronal_NVC_parameters.m - supporting function for the neuronal_NVC_model, containg structure with all parameteres of the model. Output of this function is the first input to the LBR_model.
 
 ### Examples:
