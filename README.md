@@ -14,5 +14,7 @@ Author: Martin Havlicek, Maastricht Unversity (m.havlicek@maastrichtuniversity.n
 ### Examples:
 #### *Steady-state:*
 * Example_ss_variable_CBF_with_different_baselineCBV.m - showing an impact of changing increase of baseline CBV in the ascending vein on LBR profile (assuming variable laminar relative CBF profile as an input).
+#### *Dynamic response:*
+* Example_dynamic_LBR.m - showing dynamic laminar BOLD response for short and long stimulus durations.
 
-Updated: 10 August 2019 
+Updated: 20 August 2019 
