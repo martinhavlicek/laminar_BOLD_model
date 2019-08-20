@@ -27,7 +27,7 @@ function [LBR,Y,LBRpial] = LBR_model(P,cbf,cmro2)
 %               P = LBR_parameters(K);       % Get parameter structure with default values
 %               cbf = ones(P.T/P.dt,K)*1.6;  % Define model input (Relative blood flow across depths)
 %               P.s_d = 0.4;                 % Define the slope of increase of CBV0 in the ascening vein
-%               [LBR,Y,LBRpial] = LBR_model(P,cbf); % Generate the LBR
+%               [LBR,Y] = LBR_model(P,cbf);  % Generate the LBR
 %               figure(1), 
 %               plot(P.l,flipud(LBR(end,:)')); % plot the LBR profile as a function of normalized cortical depth
 %               xlim([0 100]); ylim([0 6]); xlabel('1 - Cortical depth (%)'); ylabel('LBR (%)'); axis square;
@@ -48,7 +48,7 @@ function [LBR,Y,LBRpial] = LBR_model(P,cbf,cmro2)
 %               P.H.alpha_v   = 0.35;
 %               P.H.alpha_d   = 0.2;
 %               P.H.tau_d_de  = 30;
-%               [LBR,Y,LBRpial] = LBR_model(P.H,cbf);
+%               [LBR,Y]       = LBR_model(P.H,cbf);
 %               time_axis = [0:P.H.dt:P.H.T-P.H.dt];
 %               figure(1), 
 %               subplot(121), plot(time_axis,cbf); xlim([time_axis(1), time_axis(end)]); ylim([0.5 2]); 
@@ -384,8 +384,8 @@ for t = 1:P.T/dt
     Y.qd(t,:) = q_d;
     Y.qp(t,:) = q_p;
 
-    Y.vv(t,:) = v_d;
-    Y.vd(t,:) = v_v;
+    Y.vv(t,:) = v_v;
+    Y.vd(t,:) = v_d;
     Y.vp(t,:) = v_p;
 
     
