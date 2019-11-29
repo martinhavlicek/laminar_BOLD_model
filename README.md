@@ -14,7 +14,9 @@ Author: Martin Havlicek, Maastricht Unversity (m.havlicek@maastrichtuniversity.n
 ### Examples:
 #### *Steady-state:*
 * Example_ss_variable_CBF_with_different_baselineCBV.m - showing an impact of changing increase of baseline CBV in the ascending vein on LBR profile (assuming variable laminar relative CBF profile as an input).
+* Example_ss_linear_scaling.m - demonstrating linear scaling of BOLD response amplitude across depths with increasing relative CBF (or stimulus strenght), which is constant across depths.
+* Example_ss_nonlinear_scaling.m - demonstrating non-linear scaling of BOLD response amplitude across depths with increasing relative CBF (or stimulus strenght), which is variable across depths.
 #### *Dynamic response:*
 * Example_dynamic_LBR.m - showing dynamic laminar BOLD response for short and long stimulus durations.
 
-Updated: 20 August 2019 
+Updated: 28 November 2019 
