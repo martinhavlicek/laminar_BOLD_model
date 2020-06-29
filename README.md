@@ -1,4 +1,7 @@
 # laminar_BOLD_model
+
+![Figure](/Figures/Figure1.png)
+
 Matlab code of the laminar BOLD response (LBR) model as described in Havlicek, M. &amp; Uludag, K. (2019) A dynamical model of the laminar BOLD response, NeuroImage, doi: 10.1016/j.neuroimage.2019.116209. Tested with Matlab R2015b.
 
 Author: Martin Havlicek, Maastricht Unversity (m.havlicek@maastrichtuniversity.nl)
